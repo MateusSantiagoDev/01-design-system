@@ -30,7 +30,7 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/01-design-system/'
+      return config.base = '/01-design-system/'
     }
     return config
   },
