@@ -8,7 +8,7 @@ function getAbsolutePath(value) {
   return dirname(require.resolve(join(value, 'package.json')))
 }
 
-/** @type { import('@storybook/react-vite').StorybookConfig } */
+// @type { import('@storybook/react-vite').StorybookConfig } 
 const config = {
   stories: [
     '../src/pages/**/*.mdx',
