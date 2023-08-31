@@ -15,4 +15,6 @@ export const colors = {
   devsystem500: '#00875f',
   devsystem700: '#015f43',
   devsystem900: '#00291d',
+
+  teste: '#fff',
 }
